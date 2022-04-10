@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@700&display=swap');
+
+
+/*
+--------------------
+font-family: 'Open Sans', sans-serif;
+font-family: 'Proza Libre', sans-serif;
+--------------------*/
+
+/*
+----------------------------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0 3%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    font-family: 'Proza Libre', sans-serif;
+}
+
+
+
+/*header
+----------------------------------------
+*/
+.header{
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    justify-content: space-between;
+}
+#logo{
+    font-family: 'Proza Libre', sans-serif;
+    margin: 0;
+}
+.header ul{
+    display: flex;
+    margin-left: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header li{
+    list-style: none;
+    padding: 0 8px;
+  
+  
+    }
+ 
+ a{
+     text-decoration: none;
+     font-weight: 600;
+ }
+
+/*About me
+----------------------------------------*/
+.about_me_container{
+    display: flex;
+}
+
+.about_me_text_container{
+    margin-right: 16px;
+}
+
+.picture{
+    width: 300px;
+    border-radius: 7%;
+    padding: 10px;
+}
+@media only screen and (max-width:600px){
+    .about_me_container{
+        flex-direction: column;
+        width:100%;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    
+}
+
+/*Projects
+----------------------------------------*/
+#projects{
+    margin-bottom: 15px;
+}
+.project-image{
+    width: 50%;
+}
+details{
+    cursor: pointer;
+    
+}
+.project-title{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.project-title h3{
+    display: inline;
+   
+}
+
+/*Skills
+----------------------------------------*/
+.skills_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills_container i{
+   font-size: 2em;
+   width:2em;
+   padding: 0.1em;
+  
+}
+#skills{
+    margin-bottom: 35px;
+}
+/*Footer
+----------------------------------------*/
+.heart {
+    color: red;
+  }
+
+footer{
+    text-align: center;
+    margin: 0  auto;
+    padding-bottom: 35px;
+}
